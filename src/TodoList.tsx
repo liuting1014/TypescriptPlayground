@@ -2,21 +2,33 @@ import * as React from 'react';
 import { observer } from 'mobx-react';
 import { TodoStore } from './TodoStore';
 
+type TodoListProps = {
+  store: TodoStore
+};
+
 @observer
-export default class TodoList extends React.Component <{store: TodoStore }> {
-  addTodo = (e) => {
+export default class TodoList extends React.Component <TodoListProps> {
+  addTodo = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.which === 13) {
-      this.props.store.createTodo(e.target.value);
-      e.target.value = '';
+      const inputField: HTMLInputElement = e.target as any;
+      this.props.store.createTodo(inputField.value);
+      inputField.value = '';
     }
-  };
+  }
 
   render() {
-    return(
+    return (
       <div>
         <h1>My Todo List</h1>
-        <input type="text" placeholder="What needs to be done?" onKeyPress={this.addTodo}/>
+        <pre>
+          {JSON.stringify(this.props.store.todos, null, 2)}
+        </pre>
+        <input
+          type="text"
+          placeholder="What needs to be done?"
+          onKeyPress={this.addTodo}
+        />
       </div>
-    )
+    );
   }
 }

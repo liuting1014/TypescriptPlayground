@@ -1,4 +1,4 @@
-import { observable } from 'mobx'
+import { observable } from 'mobx';
 
 class Todo {
   @observable value: string;
@@ -21,4 +21,3 @@ export class TodoStore {
     this.todos = this.todos.filter(todo => !todo.completed);
   }
 }
-
