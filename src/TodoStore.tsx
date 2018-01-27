@@ -18,7 +18,9 @@ export class TodoStore {
   createTodo (value: string): void {
     this.todos.push(new Todo(value));
   }
-
+  deleteTodo (index: number): void {
+    this.todos.splice(index, 1);
+  }
   clearCompleted = () => {
     this.todos = this.todos.filter(todo => !todo.completed);
   }

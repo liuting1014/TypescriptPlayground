@@ -27,8 +27,8 @@
       <file leaf-file-name="TodoList.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TodoList.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -50,8 +50,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/registerServiceWorker.ts" />
-        <option value="$PROJECT_DIR$/src/TodoList.tsx" />
         <option value="$PROJECT_DIR$/src/TodoStore.tsx" />
+        <option value="$PROJECT_DIR$/src/TodoList.tsx" />
       </list>
     </option>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1516974328681" duration="578000" />
       <workItem from="1516976681028" duration="3593000" />
       <workItem from="1517063088857" duration="3012000" />
-      <workItem from="1517066326076" duration="2076000" />
+      <workItem from="1517066326076" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="Add prop type to TodoList component">
       <created>1517009666205</created>
@@ -158,11 +158,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517009666205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add toggle complete and clear completed .">
+      <created>1517069175149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517069175149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20422000" />
+    <option name="totallyTimeSpent" value="21189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -198,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add prop type to TodoList component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add prop type to TodoList component" />
+    <MESSAGE value="Add toggle complete and clear completed ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add toggle complete and clear completed ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -350,16 +358,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoStore.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoList.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

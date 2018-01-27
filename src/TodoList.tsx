@@ -18,7 +18,7 @@ export default class TodoList extends React.Component <TodoListProps> {
   }
 
   render() {
-    const todoItem = this.props.store.todos.map((todo: Todo) => (
+    const todoItem = this.props.store.todos.map((todo: Todo, index: number) => (
       <li key={todo.id}>
         <input
           type="checkbox"
@@ -26,6 +26,11 @@ export default class TodoList extends React.Component <TodoListProps> {
           onChange={() => {todo.completed = !todo.completed; }}
         />
         {todo.value}
+        <button
+          onClick={() => {this.props.store.deleteTodo(index); }}
+        >
+          X
+        </button>
       </li>
     ));
     return (
