@@ -26,11 +26,9 @@ export default class TodoList extends React.Component <TodoListProps> {
           onChange={() => {todo.completed = !todo.completed; }}
         />
         {todo.value}
-        <button
-          onClick={() => {this.props.store.deleteTodo(index); }}
-        >
-          X
-        </button>
+        <button onClick={() => {this.props.store.moveUp(index); }}> Up </button>
+        <button onClick={() => {this.props.store.moveDown(index); }}> Down </button>
+        <button onClick={() => {this.props.store.deleteTodo(index); }}> X </button>
       </li>
     ));
     return (

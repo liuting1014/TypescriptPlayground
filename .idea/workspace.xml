@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7deb7fca-59b6-426f-9110-a62fc339009a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change beforePath="$PROJECT_DIR$/src/TodoList.tsx" afterPath="$PROJECT_DIR$/src/TodoList.tsx" />
       <change beforePath="$PROJECT_DIR$/src/TodoStore.tsx" afterPath="$PROJECT_DIR$/src/TodoStore.tsx" />
     </list>
@@ -24,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TodoList.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TodoList.tsx">
+      <file leaf-file-name="TodoStore.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TodoStore.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="258">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,14 +43,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/registerServiceWorker.ts" />
-        <option value="$PROJECT_DIR$/src/TodoStore.tsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/TodoList.tsx" />
+        <option value="$PROJECT_DIR$/src/TodoStore.tsx" />
       </list>
     </option>
   </component>
@@ -92,6 +91,11 @@
             <path>
               <item name="typescript_playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="typescript_playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typescript_playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typescript_playground" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="typescript_playground" type="b2602c69:ProjectViewProjectNode" />
@@ -149,7 +153,7 @@
       <workItem from="1516974328681" duration="578000" />
       <workItem from="1516976681028" duration="3593000" />
       <workItem from="1517063088857" duration="3012000" />
-      <workItem from="1517066326076" duration="2843000" />
+      <workItem from="1517066326076" duration="3992000" />
     </task>
     <task id="LOCAL-00001" summary="Add prop type to TodoList component">
       <created>1517009666205</created>
@@ -165,11 +169,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517069175149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add delete todo">
+      <created>1517069921272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517069921272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21189000" />
+    <option name="totallyTimeSpent" value="22338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -206,7 +217,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add prop type to TodoList component" />
     <MESSAGE value="Add toggle complete and clear completed ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add toggle complete and clear completed ." />
+    <MESSAGE value="Add delete todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add delete todo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -289,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -356,21 +361,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoStore.tsx">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoList.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        <state relative-caret-position="66">
+          <caret line="29" column="84" lean-forward="false" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoStore.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
